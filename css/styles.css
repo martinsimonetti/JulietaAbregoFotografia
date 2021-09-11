@@ -30,6 +30,12 @@ p {
     background-color: #664144 !important;
 }
 
+.btn-primary{
+    background-color: #664144 !important;
+    border-color: #664144 !important;;
+    color: #ECD3D3 !important;
+}
+
 .text-primary {
     font-family: "Carena";
     color: #664144 !important;
@@ -44,9 +50,12 @@ p {
     padding: 4px 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .navbar-nav {
-        margin-left: 100px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-right: 316px;
     }
 }
 .navbar-dark .navbar-nav .nav-link{
