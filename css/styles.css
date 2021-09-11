@@ -46,6 +46,10 @@ p {
     color: #ECD3D3 !important;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 .navbar{
     padding: 4px 0;
 }
@@ -65,4 +69,23 @@ p {
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
     color: #ECD3D3 !important;
+}
+
+.btn-centrado{
+    align-self: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.card-img-top{
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.card-img-rounded{
+    border-radius: 50%;
+    margin: 1rem;
 }
