@@ -15,8 +15,45 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Carena";
+    color: #664144 !important;
 }
 
 p {
     font-family: "Montserrat-Regular";
+}
+
+.bg-primary{
+    background-color: #ECD3D3 !important;
+}
+
+.bg-secondary{
+    background-color: #664144 !important;
+}
+
+.text-primary {
+    font-family: "Carena";
+    color: #664144 !important;
+}
+
+.text-secondary {
+    font-family: "Montserrat-Regular";
+    color: #ECD3D3 !important;
+}
+
+.navbar{
+    padding: 4px 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 100px;
+    }
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #BE807A !important;
+    font-size: large;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #ECD3D3 !important;
 }
