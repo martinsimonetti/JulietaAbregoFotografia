@@ -37,12 +37,10 @@ p {
 }
 
 .text-primary {
-    font-family: "Carena";
     color: #664144 !important;
 }
 
 .text-secondary {
-    font-family: "Montserrat-Regular";
     color: #ECD3D3 !important;
 }
 
@@ -88,4 +86,14 @@ p {
 .card-img-rounded{
     border-radius: 50%;
     margin: 1rem;
+}
+
+.rounded-start{
+    border-radius: 1.5rem 0 0 1.5rem !important;
+}
+
+.col-align-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
