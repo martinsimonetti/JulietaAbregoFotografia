@@ -131,3 +131,35 @@ hr{
     opacity: 1;
     margin-block: 20px;
 }
+
+@media (max-width: 767px) { 
+    .background-servicios{
+        background-size: cover;
+        width: 350px !important;
+        min-height: 622px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .background-servicios{
+        background-size: cover;
+        width: 324px !important;
+        min-height: 576px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .background-servicios{
+        background-size: cover;
+        width: 210px !important;
+        min-height: 373px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background-servicios{
+        background-size: cover;
+        width: 255px !important;
+        height: 453px !important;
+    }
+}
